@@ -15,6 +15,7 @@ class Car {
         this.ano = ano;
         this.consumo = consumo;
     };
+    
     relatório(){
         const preçoGasolina = 5.12;
         const percurso = 715;
