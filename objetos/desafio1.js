@@ -1,5 +1,5 @@
 /*
-    1 - Crie uma classe para representar carros.
+    1. Crie uma classe para representar carros.
     Os carros possuem modelo, ano e um consumo médio de combustível Km/l.
     Crie um método que dado a quantidade de Km e o preço do combustível, nos
     dê o valor gasto em reais para realizar um percurso.
@@ -18,7 +18,7 @@ class Car {
     
     relatório(){
         const preçoGasolina = 5.12;
-        const percurso = 715;
+        const percurso = 125;
         let calculoParaPercurso = percurso / this.consumo;
         let custoViagem = calculoParaPercurso * preçoGasolina;
         custoViagem = custoViagem.toFixed(2);
