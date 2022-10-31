@@ -22,7 +22,7 @@ class Car {
         let custoViagem = calculoParaPercurso * preçoGasolina;
         custoViagem = custoViagem.toFixed(2);
         
-        console.log(`Uma viagem de ${percurso}KM, num ${this.modelo} ${this.ano} com consumo de ${this.consumo} nas rodovias, terá o custo de R$${custoViagem}!`)
+        console.log(`Uma viagem de ${percurso}KM, num ${this.modelo} ${this.ano} com consumo de ${this.consumo}Km/l nas rodovias, terá o custo de R$${custoViagem}!`)
     }
 };
 
